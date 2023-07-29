@@ -26,7 +26,6 @@ public class CartPage {
         driver.quit();
     }
     
-	//buttons on the page
     private static final Map<String, By> viewCartButtons = Map.of(
     "deleteFirstCartElement" , By.xpath("/html/body/section/div/div[2]/table/tbody/tr[1]/td[6]/a"),
     "deleteSecondCartElement" , By.xpath("/html/body/section/div/div[2]/table/tbody/tr[2]/td[6]/a"),
